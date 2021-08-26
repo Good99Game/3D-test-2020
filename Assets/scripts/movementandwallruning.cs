@@ -1,8 +1,11 @@
+using Mirror;
 using System;
 using UnityEngine;
 
-public class movementandwallruning : MonoBehaviour
+public class movementandwallruning : NetworkBehaviour
 {
+
+
     /// <summary>
     /// Wall run Tutorial stuff, scroll down for full movement
     /// </summary>
